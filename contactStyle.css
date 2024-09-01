@@ -125,6 +125,7 @@ body{
     color: var(--text);
     cursor: pointer;
     position: relative;
+    margin-right: 1rem;
     z-index: 1001;
     color: rgb(210, 210, 210);
 }
@@ -143,7 +144,7 @@ body{
     right: 0px;
     top: 0px;
     padding-top: 80px ;
-    width: 100vw;
+    width: calc(100vw + 15px);
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.614);
     height: 100vh;
@@ -194,6 +195,7 @@ body{
 
     .fa-bars{
         display: flex;
+        margin-right: qrem;
     }
 
     #pcHeroPic{

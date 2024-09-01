@@ -129,6 +129,7 @@ body{
     color: var(--text);
     cursor: pointer;
     position: relative;
+    margin-right: 1rem;
     z-index: 1001;
     color: rgb(210, 210, 210);
 }
@@ -147,7 +148,7 @@ body{
     right: 0px;
     top: 0px;
     padding-top: 80px ;
-    width: 100vw;
+    width: calc(100vw + 15px);
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.614);
     height: 100vh;
@@ -198,6 +199,7 @@ body{
 
     .fa-bars{
         display: flex;
+        margin-right: 1rem;
     }
 
     #pcHeroPic{
@@ -234,23 +236,25 @@ body{
 
 /* HERO */
 
-
+/* 
 .heroImg img{
     width: 100%;
     height: auto;
     margin-bottom: 100px;
-}
+} */
 
 .heroOverlay{
-    background-color: transparent;
-    position: absolute;
+    background-image: url(images/heroPic.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
-    height: 300px;
-    margin-top: 80px;
+    height: 400px;
     z-index: 2;
     display: flex;
     align-items: center;
     justify-content: end;
+    margin-bottom: 100px;
 }
 
 #heroCard{
@@ -261,6 +265,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin-right: 56px;
+    margin-bottom: -5rem;
     box-shadow: 0px 5px 5px rgb(82, 82, 82);
 }
 
@@ -484,6 +489,7 @@ body{
 
 .whyUsGrp p{
     width: 220px;
+    max-width: 100%;
     margin-top: 8px;
 }
 
