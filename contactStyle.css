@@ -125,7 +125,7 @@ body{
     color: var(--text);
     cursor: pointer;
     position: relative;
-    margin-right: 2rem;
+    margin-right: 1rem;
     z-index: 1001;
     color: rgb(210, 210, 210);
 }

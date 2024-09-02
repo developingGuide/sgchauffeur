@@ -125,7 +125,7 @@ body{
     color: var(--text);
     cursor: pointer;
     position: relative;
-    margin-right: 2rem;
+    margin-right: 1rem;
     z-index: 1001;
     color: rgb(210, 210, 210);
 }
@@ -363,11 +363,7 @@ main img{
 }
 
 #imageCard{
-    width: auto;
-    margin-left: 28px;
-    margin-right: 28px;
-    height: 200px;
-    
+    width: 85%;
 }
 
 #serviceList{
@@ -396,15 +392,12 @@ main img{
         flex-direction: row;
     }
 
-    #imageCard{
-        margin-left: 28px;
-    }
-
 }
 
 @media screen and (max-width: 800px){
     main{
         display: flex;
+        flex-wrap: nowrap;
         flex-direction: column;
         align-items: center;
     }
