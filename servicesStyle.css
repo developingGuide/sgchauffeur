@@ -257,6 +257,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .clickedService h2{
@@ -278,12 +279,12 @@ body{
 .btn-close{
     border: 0;
     background-color: transparent;
-    font-size: 36px;
+    font-size: 28px;
     cursor: pointer;
     position: absolute;
-    right: 44px;
-    top: 40px;
-    color: white;
+    top: 0;
+    right: 0;
+    color: black;
 }
 
 #ctaButtonService{
@@ -291,8 +292,6 @@ body{
     height: 36px;
     width: 10rem;
 }
-
-
 
 
 .header{
@@ -390,6 +389,11 @@ main img{
 
     .serviceMain{
         flex-direction: row;
+    }
+
+    #imageCard{
+        width: 300px;
+        margin-left: 16px;
     }
 
 }
