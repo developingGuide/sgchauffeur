@@ -597,6 +597,55 @@ body{
 }
 
 
+/* Major Supporter */
+.majorSupporter{
+    background-color: #6ec1e450;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.majorSupporter h2{
+    color: #4054B2;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.majorSupporter img{
+    width: 50%;
+}
+
+.supporterContain{
+    display: flex;
+}
+
+.supporterContain p{
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1000px){
+    .majorSupporter{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .majorSupporter img{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .supporterContain{
+        flex-direction: column;
+    }
+}
+
+
 
 
 /* Testimonials */
