@@ -376,7 +376,12 @@ body{
 }
 
 #probP{
-    margin-bottom: 8px;
+    margin-bottom: 12px;
+}
+
+#probP p{
+    margin-bottom: 5px;
+    font-size: 17px;
 }
 
 
