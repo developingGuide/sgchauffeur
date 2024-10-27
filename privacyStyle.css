@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: verdana, arial, Helvetica, sans-serif;
+}
+
+body{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
